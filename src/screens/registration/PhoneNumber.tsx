@@ -35,7 +35,7 @@ export default function PhoneNumberScreen() {
       >
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={tw`flex-1`}>
-            <TouchableOpacity onPress={() => router.back()} style={tw`mt-12`}>
+            <TouchableOpacity onPress={() => router.push("/continue")} style={tw`mt-12`}>
             <MaterialIcons name="chevron-left" size={34} color="black" />
             </TouchableOpacity>
             <View style={tw`mt-15`}>

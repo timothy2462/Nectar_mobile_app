@@ -27,7 +27,7 @@ const Location = () => {
       </View>
 
       <TouchableOpacity
-        onPress={() => router.back()} 
+        onPress={() => router.push("/registration/otp")} 
         style={tw`absolute top-12 left-4 z-10`} 
       >
         <MaterialIcons name="chevron-left" size={34} color="black" />
