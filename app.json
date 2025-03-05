@@ -4,7 +4,6 @@
     "slug": "Nectar",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,26 +12,32 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splach-logo.png",
+        "backgroundColor": "#53B175"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/splach-logo.png"
+    },
+    "splash": {
+      "image": "./assets/images/splach-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#53B175"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "image": "./assets/images/splach-logo.png",
+          "imageWidth": 150,
+          "resizeMode": "cover",
+          "backgroundColor": "#53B175"
         }
       ]
+   
     ],
     "experiments": {
       "typedRoutes": true
