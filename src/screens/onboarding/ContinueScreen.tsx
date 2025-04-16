@@ -7,7 +7,6 @@ import { router } from "expo-router";
 
 export default function ContinueScreen() {
   return (
-    // <ScrollView>
     <ImageBackground
       source={require("../../../assets/images/light_bottom_image.png")}
       style={tw`flex-1 w-full h-full`}
@@ -52,6 +51,5 @@ export default function ContinueScreen() {
         />
       </View>
     </ImageBackground>
-    // </ScrollView>
   );
 }
