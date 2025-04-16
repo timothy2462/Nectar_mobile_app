@@ -19,7 +19,7 @@ const Signup = () => {
   return (
     <View style={tw`flex-1 items-center justify-center bg-white`}>
       <TouchableOpacity
-        onPress={() => router.push("/registration/location")}
+        onPress={() => router.back()}
         style={tw`absolute top-12 left-4 z-10`}
       >
         <MaterialIcons name="chevron-left" size={34} color="black" />

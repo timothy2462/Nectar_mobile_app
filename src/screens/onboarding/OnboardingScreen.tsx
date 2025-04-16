@@ -27,7 +27,7 @@ export default function OnboardingScreen() {
           Get your groceries in as fast as one hour
         </Text>
 
-        <AppButton text="Get Started" onPress={() => router.push('/continue')} customStyles="mb-[100px]" />
+        <AppButton text="Get Started" onPress={() => router.push('/login')} customStyles="mb-[100px]" />
       </View>
     </ImageBackground>
   );

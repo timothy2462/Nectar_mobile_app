@@ -10,6 +10,7 @@ module.exports = {
         facebookbtn: "#4A66AC",
         primary: "#030303",
         customText: "#7C7C7C",
+        textNuetral: "#181725",
       },
       fontFamily: {
         gilroyBold: ["Gilroy-ExtraBold"],
